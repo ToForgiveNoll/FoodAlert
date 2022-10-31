@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Food Alert (Continued)</name>
+    <name>Food Alert 粮食储备</name>
     <packageId>Mlie.FoodAlert</packageId>
     <author>Mlie</author>
     <url>https://github.com/emipa606/FoodAlert</url>
@@ -45,61 +45,20 @@
         <li>brrainz.harmony</li>
         <li>UnlimitedHugs.HugsLib</li>
     </loadAfter>
-    <description>[img]https://i.imgur.com/buuPQel.png[/img]
-        Update of Mehnis mod
-        https://steamcommunity.com/sharedfiles/filedetails/?id=1114619043
+    <description>
+        原作者：https://steamcommunity.com/sharedfiles/filedetails/?id=2017538067&amp;searchtext=food+alert
+        
+        实时统计当前殖民地的食物库存及维持天数
 
-        - Added a setting for selecting the lowest preferability of food to be counted
-        DesperateOnly,RawBad,RawTasty,MealAwful,MealSimple,MealFine,MealLavish
-        Examples for each category shows in the config-dialog
-        - Changed the calculations for food, instead using the exact amount the pawns require
-        This should make the mod show more correct values and also ignore pawns that do not eat
-        - Russian translation fixed by Morbo
-        - Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131]SOS2[/url]
-        - Italian translation by arl85
-        - Spanish translation by Ferchu
-        - German translation by thephluxer
-        - Food calculations should now be done more seldom when there is a lot of food. There is a slider for setting a
-        static update-value if needed.
-
-        [img]https://i.imgur.com/pufA0kM.png[/img]
-
-        [table]
-        [tr]
-        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/FoodAlert][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-        [/tr]
-        [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
-        [/tr]
-        [/table]
-
-        [img]https://i.imgur.com/Z4GOv8H.png[/img]
-
-        Shows a persistent readout with the amount of food you currently have in storage, and an estimate of how long
-        stocks will last. Prevent sudden starvation by knowing how your food supplies are doing.
-
-        v0.1.1.1 Russian language added, thanks to Alex.
-        v0.1.1.0 RimWorld 1.0 compatible
-        v0.1.0.1 Now has a way nicer readout with all the sexy things I wanted to add.
-
-        Thanks to Brrainz - for Harmony and a lot of the code for that readout :)
-
-        [h1]Languages:[/h1]
-        Russian: Alex_1203
-
-
-        [img]https://i.imgur.com/PwoNOj4.png[/img]
-        [list]
-        [*] See if the the error persists if you just have this mod and its requirements active.
-        [*] If not, try adding your other mods until it happens again.
-        [*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url]
-        and command Ctrl+F12
-        [*] For best support, please use the Discord-channel for error-reporting.
-        [*] Do not report errors by making a discussion-thread, I get no notification of that.
-        [*] If you have the solution for a problem, please post it to the GitHub repository.
-        [/list]
-
+        Languages:
+        简体中文
+        English
+        French
+        German
+        Italian
+        Russian
+        Spanish
+        
+        除了简中自带外 其余语言需要更新
     </description>
 </ModMetaData>
