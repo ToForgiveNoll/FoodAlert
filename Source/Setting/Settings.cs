@@ -37,8 +37,8 @@ internal class Settings : Mod
     public Settings(ModContentPack content) : base(content)
     {
         Config = GetSettings<SettingConfig>();
-        _currentVersion = XmlApi.GetXml(".\\Mods\\2017538067\\About\\Manifest.xml",
-            "Manifest/version");
+        // 暂时使用硬编码
+        _currentVersion = "1.0.0";
     }
 
     /// <summary>

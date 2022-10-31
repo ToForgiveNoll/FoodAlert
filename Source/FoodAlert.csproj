@@ -68,6 +68,10 @@
     </ItemGroup>
     <!-- 自动部署 -->
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-        <Exec Command="copy &quot;$(ProjectDir)bin\Debug\*.dll&quot; &quot;$(ProjectDir)..\1.4\Assemblies\*.dll&quot;" />
+        <Exec Command="copy $(ProjectDir)bin\Debug\*.dll $(ProjectDir)..\1.4\Assemblies\*.dll" />
+        <Exec Command="rd /s /q D:\app\steam\steamapps\common\RimWorld\Mods\FoodAlert\" />
+        <Exec Command="md D:\app\steam\steamapps\common\RimWorld\Mods\FoodAlert\" />
+        <Exec Command="xcopy /e /h /exclude:excludedfileslist.txt $(ProjectDir)..\*.* D:\app\steam\steamapps\common\RimWorld\Mods\FoodAlert" />
+        <Exec Command="rd /s /q D:\app\steam\steamapps\common\RimWorld\Mods\FoodAlert\Source\" />
     </Target>
 </Project>

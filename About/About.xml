@@ -47,8 +47,8 @@
     </loadAfter>
     <description>
         原作者：https://steamcommunity.com/sharedfiles/filedetails/?id=2017538067&amp;searchtext=food+alert
-        
-        实时统计当前殖民地的食物库存及维持天数
+
+        实时统计当前殖民地的食物库存及维持天数并提供警告
 
         Languages:
         简体中文
@@ -58,7 +58,7 @@
         Italian
         Russian
         Spanish
-        
-        除了简中自带外 其余语言需要更新
+
+        除了简中自带外 其余语言描述需要更新
     </description>
 </ModMetaData>

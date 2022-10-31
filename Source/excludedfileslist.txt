@@ -1,0 +1,6 @@
+﻿
+.git\
+.idea\
+.gitignore
+Folder.DotSettings.user
+LICENSE.md
