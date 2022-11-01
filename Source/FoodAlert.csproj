@@ -6,7 +6,7 @@
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
         <DebugType>None</DebugType>
         <LangVersion>latest</LangVersion>
-        <FileVersion>1.4.1</FileVersion>
+        <FileVersion>1.0.0</FileVersion>
     </PropertyGroup>
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
