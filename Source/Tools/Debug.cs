@@ -17,6 +17,6 @@ public class Debug
     /// </summary>
     public static void Log(string log)
     {
-        Verse.Log.Message(string.Format("[{0}] {1} {2}", ModName, DateTime.Now, log));
+        Verse.Log.Message(string.Format("[{0}] {1: yyyy-MM-dd HH:mm:ss} {2}", ModName, DateTime.Now, log));
     }
 }
